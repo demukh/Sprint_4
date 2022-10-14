@@ -38,9 +38,9 @@ public class WhooseScooter {
     public void setPhone(String phone) {
         driver.findElement(phoneField).sendKeys(phone);
     }
-    public void orderPageOne(String name, String surname, String address, String phone){ //заполнение первой страницы
+    public void orderPageOne(String name, String firstname, String address, String phone){ //заполнение первой страницы
         setName(name);
-        setSurname(surname);
+        setSurname(firstname);
         setAddress(address);
         setMetro();
         setPhone(phone);
